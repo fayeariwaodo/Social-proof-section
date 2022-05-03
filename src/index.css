@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow: hidden;
 }
 
 
@@ -19,7 +21,7 @@ body {
   }
   
   h1, p{
-   /* width: 50%; */
+    width: 100%;    
     color: rgb(78, 20, 78);
   }
   
@@ -69,7 +71,7 @@ body {
   }
   
   .contain{
-    width: 50%;
+    width: 100%;
     padding: 3%;
     /* margin-top: 30px; */
   }
@@ -77,7 +79,7 @@ body {
   .flexus{
     display: flex;
     position: relative;
-    left: 17rem;
+    /* left: 17rem; */
   }
   
   .para1{
@@ -85,8 +87,8 @@ body {
   }
   
   .header{
-    padding: 1%;
-   width: 50%
+    padding: 2%;
+    width: 75%;
   }
   
   img.colton, img.anny,img.iry{
@@ -97,6 +99,8 @@ body {
   
   .col, .irene, .ann{
     display: flex;
+    justify-content: space-around;
+    text-align: center;
   
   }
   
@@ -104,11 +108,12 @@ body {
     /* border-style: solid; */
       /* height: 455px; */
       display: flex;
+      flex-direction: column;
       padding: 2%;
-      position: relative;
-      left: 17rem;
+      /* position: relative; */
+      /* left: 5rem; */
       /* margin-right: 34px; */
-    background-image: url('C:\Users\James Abache\OneDrive\Desktop\SOCIAL PROOF SECTION\src\IMAGES\bg-pattern-bottom-desktop.svg');
+     /* background-image: url('/IMAGES/bg-pattern-bottom-desktop.svg'); */
   }
   
   
@@ -116,8 +121,8 @@ body {
     border-style: solid;
     /* padding: 5%; */
     /* margin-left: 34px; */
-    border-radius: 15px;
-    padding: 1%;
+    border-radius: 10px;
+    padding: 2%;
     margin-top: 20px;
     background-color: rgb(78, 20, 78);
     color: white;
@@ -139,8 +144,263 @@ body {
 
 
 }
-@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
-@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:768px)  { /* smartphones, Android phones, landscape iPhone */
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .background{
+    background-repeat: no-repeat;
+  }
+  
+  h1, p{
+    width: 100%;    
+    color: rgb(78, 20, 78);
+  }
+  
+  p.pa{
+    margin-left: 15px;
+  }
+  
+  .imaga{
+     height: 45px;
+      display: flex;
+      border-style: solid;
+      border-color: whitesmoke;
+      width: 298px;
+      margin-top: 15px;
+      border-radius: 8px;
+      color: rgb(78, 20, 78);
+   }
+  
+  img{
+    width: 14px;
+    height: 18px;
+    margin-top: 18px;
+  }
+  
+  .imgs{
+    height: 45px;
+     display: flex;
+     border-style: solid;
+     border-color: whitesmoke;
+     width: 298px;
+     margin-top: 15px;
+     border-radius: 8px;
+     margin-left: 20px;
+     color: rgb(78, 20, 78);
+  }
+  
+  .imgg{
+    height: 45px;
+     display: flex;
+     border-style: solid;
+     border-color: whitesmoke;
+     width: 298px;
+     margin-top: 15px;
+     border-radius: 8px;
+     margin-left: 35px;
+     color: rgb(78, 20, 78);
+  }
+  
+  .contain{
+    width: 100%;
+    padding: 3%;
+    /* margin-top: 30px; */
+  }
+  
+  .flexus{
+    display: flex;
+    position: relative;
+    /* left: 17rem; */
+  }
+  
+  .para1{
+    width: 310px;
+  }
+  
+  .header{
+    padding: 2%;
+    width: 75%;
+  }
+  
+  img.colton, img.anny,img.iry{
+    width: 77px;
+    height: 66px;
+    border-radius: 179px
+  }
+  
+  .col, .irene, .ann{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .all{
+   
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+      /* position: relative; */
+      /* left: 5rem; */
+      width: 80%;
+      /* margin-right: 34px; */
+     /* background-image: url('/IMAGES/bg-pattern-bottom-desktop.svg'); */
+  }
+  
+  
+  .irenediv, .coldiv, .anndiv{
+    border-style: solid;
+   width: 50%;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 20px;
+    background-color: rgb(78, 20, 78);
+    color: white;
+  }
+  
+  .coltest, .irenetest, .anntest{
+    color: white;
+    margin-left: 5px;
+    margin-left: 7px;
+  }
+  .buyer{
+    color: white;
+  
+  }
+  h1{
+    width: 290px;
+    /* padding: 10%; */
+  }
+ }
+@media (min-width:1024px)  { /* smartphones, Android phones, landscape iPhone */
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .background{
+    background-repeat: no-repeat;
+  }
+  
+  h1, p{
+    width: 100%;    
+    color: rgb(78, 20, 78);
+  }
+  
+  p.pa{
+    margin-left: 15px;
+  }
+  
+  .imaga{
+     height: 45px;
+      display: flex;
+      border-style: solid;
+      border-color: whitesmoke;
+      width: 298px;
+      margin-top: 15px;
+      border-radius: 8px;
+      color: rgb(78, 20, 78);
+   }
+  
+  img{
+    width: 14px;
+    height: 18px;
+    margin-top: 18px;
+  }
+  
+  .imgs{
+    height: 45px;
+     display: flex;
+     border-style: solid;
+     border-color: whitesmoke;
+     width: 298px;
+     margin-top: 15px;
+     border-radius: 8px;
+     margin-left: 20px;
+     color: rgb(78, 20, 78);
+  }
+  
+  .imgg{
+    height: 45px;
+     display: flex;
+     border-style: solid;
+     border-color: whitesmoke;
+     width: 298px;
+     margin-top: 15px;
+     border-radius: 8px;
+     margin-left: 35px;
+     color: rgb(78, 20, 78);
+  }
+  
+  .contain{
+    width: 100%;
+    padding: 3%;
+    /* margin-top: 30px; */
+  }
+  
+  .flexus{
+    display: flex;
+    position: relative;
+    /* left: 17rem; */
+  }
+  
+  .para1{
+    width: 310px;
+  }
+  
+  .header{
+    padding: 2%;
+    width: 75%;
+  }
+  
+  img.colton, img.anny,img.iry{
+    width: 77px;
+    height: 66px;
+    border-radius: 179px
+  }
+  
+  .col, .irene, .ann{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .all{
+   
+      display: flex;
+      flex-direction: row;
+      padding: 2%;
+      gap: 10px;
+      width: 95%;
+      /* margin-right: 34px; */
+     /* background-image: url('/IMAGES/bg-pattern-bottom-desktop.svg'); */
+  }
+  
+  
+  .irenediv, .coldiv, .anndiv{
+    border-style: solid;
+   width: 50%;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 20px;
+    background-color: rgb(78, 20, 78);
+    color: white;
+  }
+  
+  .coltest, .irenetest, .anntest{
+    color: white;
+    margin-left: 5px;
+    margin-left: 7px;
+  }
+  .buyer{
+    color: white;
+  
+  }
+  h1{
+    width: 290px;
+    /* padding: 10%; */
+  }
+ }
+
